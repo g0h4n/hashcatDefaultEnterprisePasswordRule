@@ -14,6 +14,7 @@ Of course a hashcat rule needs an installed hashcat..🤷‍♂️
 
 ```bash
 wget https://raw.githubusercontent.com/g0h4n/hashcatDefaultEnterprisePasswordRule/main/hashcatDefaultEnterprisePasswordRule.rule
+
 hashcat -r hashcatDefaultEnterprisePasswordRule.rule wordlist.txt --stdout > passwords.txt
 ```
 
