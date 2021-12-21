@@ -10,6 +10,8 @@ Create one file named **wordlist.txt** with for example the name of your target 
 google
 ```
 
+Of course a hashcat rule needs an installed hashcat..🤷‍♂️
+
 ```bash
 wget https://raw.githubusercontent.com/g0h4n/hashcatDefaultEnterprisePasswordRule/main/hashcatDefaultEnterprisePasswordRule.rule
 hashcat -r hashcatDefaultEnterprisePasswordRule.rule wordlist.txt --stdout > passwords.txt
@@ -17,4 +19,4 @@ hashcat -r hashcatDefaultEnterprisePasswordRule.rule wordlist.txt --stdout > pas
 
 <img src="./src/passwords.gif" alt="passwords list" />
 
-Now you can use **passwords.txt** to try to crack a hash.⚙️
+Now you can use **passwords.txt** to try to crack hashs.⚙️
