@@ -17,4 +17,4 @@ hashcat -r hashcatDefaultEnterprisePasswordRule.rule wordlist.txt --stdout > pas
 
 <img src="./src/passwords.gif" alt="passwords list" />
 
-Now you can use **passwords.txt*** to try to crack a hash.⚙️
+Now you can use **passwords.txt** to try to crack a hash.⚙️
