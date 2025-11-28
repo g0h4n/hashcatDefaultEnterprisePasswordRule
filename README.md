@@ -1,16 +1,16 @@
 # hashcatDefaultEnterprisePasswordRule
 
-Here is a **hashcat rule** for building a list of passwords. These are the formats I've seen most often in companies.
+Here is a **Hashcat rule** designed to generate password candidates based on formats commonly observed in enterprise environments.
 
 # How to use it?🔨
 
-Create one file named **wordlist.txt** with for example the name of your target company:
+Create a file named wordlist.txt containing, for example, the name of your target company:
 
 ```
 google
 ```
 
-Of course a hashcat rule needs an installed hashcat..🤷‍♂️
+Obviously, using a Hashcat rule requires that Hashcat is already installed… 🤷‍♂️
 
 ```bash
 wget https://raw.githubusercontent.com/g0h4n/hashcatDefaultEnterprisePasswordRule/main/hashcatDefaultEnterprisePasswordRule.rule
@@ -20,4 +20,4 @@ hashcat -r hashcatDefaultEnterprisePasswordRule.rule wordlist.txt --stdout > pas
 
 <img src="./src/passwords.gif" alt="passwords list" />
 
-Now you can use **passwords.txt** to try to crack hashs.⚙️
+You can now use passwords.txt to attempt cracking hashes. ⚙️
